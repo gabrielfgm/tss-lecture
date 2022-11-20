@@ -3,11 +3,11 @@
   <head>
     <title>Comparison</title>
     <meta charset="utf-8" />
-    <script src="libs/header-attrs-2.7/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.14/header-attrs.js"></script>
     <script src="libs/xaringanExtra-webcam-0.0.1/webcam.js"></script>
     <script id="xaringanExtra-webcam-options" type="application/json">{"width":"200","height":"200","margin":"1em"}</script>
-    <link href="libs/tile-view-0.2.3/tile-view.css" rel="stylesheet" />
-    <script src="libs/tile-view-0.2.3/tile-view.js"></script>
+    <link href="libs/tile-view-0.2.6/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view-0.2.6/tile-view.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
     <link rel="stylesheet" href="/Users/gabrielmesevage/Dropbox/teaching/beh-slides/helper_functions/extra.css" type="text/css" />
   </head>
@@ -15,11 +15,16 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Comparison
+]
+.author[
 ### <div class="line-block">Dr. Gabriel Geisler Mesevage<br />
-<a href="mailto:gabriel.mesevage@kcl.ac.uk" class="email">gabriel.mesevage@kcl.ac.uk</a><br />
-Office Hours: Tues. 10-11am &amp; Thurs. 5-6pm</div>
-### Last update: 04 October, 2021
+<a href="mailto:gabriel.mesevage@kcl.ac.uk" class="email">gabriel.mesevage@kcl.ac.uk</a></div>
+]
+.date[
+### Last update: 20 November, 2022
+]
 
 ---
 
@@ -130,6 +135,12 @@ Office Hours: Tues. 10-11am &amp; Thurs. 5-6pm</div>
 ### The logic of the strategy
 
 &gt; "the reason for juxtaposing case histories is to persuade the reader that a given, explicitly delineated hypothesis or theory can repeatedly demonstrate its fruitfulness" (Skocpol and Somers 1980, p. 176)
+
+### Limitations
+
++ How many cases? 
++ How are they selected?
++ What is the point of comparison here?
 ]
 
 .pull-right[
@@ -141,11 +152,7 @@ Office Hours: Tues. 10-11am &amp; Thurs. 5-6pm</div>
 
 ]
 
-### Limitations
 
-+ How many cases? 
-+ How are they selected?
-+ What is the point of comparison here?
 
 ---
 
@@ -359,6 +366,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable

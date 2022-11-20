@@ -3,7 +3,6 @@ title: "Comparison"
 author: | 
     | Dr. Gabriel Geisler Mesevage 
     | gabriel.mesevage@kcl.ac.uk
-    | Office Hours: Tues. 10-11am & Thurs. 5-6pm
 date: "Last update: `r format(Sys.time(), '%d %B, %Y')`"
 output: 
   xaringan::moon_reader:
@@ -133,6 +132,12 @@ xaringanExtra::use_tile_view()
 ### The logic of the strategy
 
 > "the reason for juxtaposing case histories is to persuade the reader that a given, explicitly delineated hypothesis or theory can repeatedly demonstrate its fruitfulness" (Skocpol and Somers 1980, p. 176)
+
+### Limitations
+
++ How many cases? 
++ How are they selected?
++ What is the point of comparison here?
 ]
 
 .pull-right[
@@ -144,11 +149,7 @@ xaringanExtra::use_tile_view()
 
 ]
 
-### Limitations
 
-+ How many cases? 
-+ How are they selected?
-+ What is the point of comparison here?
 
 ---
 
